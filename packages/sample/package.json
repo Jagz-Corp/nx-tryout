@@ -1,0 +1,6 @@
+{
+  "name": "@jagz-corp/sample",
+  "scripts": {
+    "test": "node index.js"
+  }
+}

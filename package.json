@@ -4,7 +4,9 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@nrwl/node": "^13.4.2"
+  },
   "devDependencies": {
     "@nrwl/cli": "13.4.2",
     "@nrwl/js": "13.4.2",

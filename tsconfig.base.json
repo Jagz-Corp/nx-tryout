@@ -1,20 +1,21 @@
 {
-  "compileOnSave": false,
   "compilerOptions": {
-    "rootDir": ".",
-    "sourceMap": true,
-    "declaration": false,
-    "moduleResolution": "node",
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "importHelpers": true,
-    "target": "es2015",
-    "module": "esnext",
-    "lib": ["es2017", "dom"],
-    "skipLibCheck": true,
-    "skipDefaultLibCheck": true,
-    "baseUrl": ".",
-    "paths": {}
+    "target": "es2017",
+    "sourceMap": false,
+    "outDir": "./lib",
+    "baseUrl": "./",
+    "strict": false,
+    "noUnusedLocals": false,
+    "lib": ["ES7", "ES2020", "DOM"],
+    "esModuleInterop": true,
+    "paths": {
+      "@jagz-corp/*": ["packages/*/src/"]
+    }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": ["node_modules", "lib"]
 }

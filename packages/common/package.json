@@ -1,0 +1,9 @@
+{
+  "name": "@jagz-corp/common",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
