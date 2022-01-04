@@ -6,5 +6,8 @@
   "version": "1.0.1",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@jagz-corp/common": "^1.0.2"
   }
 }
