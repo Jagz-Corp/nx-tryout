@@ -3,7 +3,8 @@
   "version": "0.2.2",
   "license": "MIT",
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "build":"npx nx affected:build"
   },
   "private": true,
   "dependencies": {
