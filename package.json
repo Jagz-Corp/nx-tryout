@@ -5,6 +5,7 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@changesets/cli": "^2.19.0",
     "@nrwl/node": "^13.4.2"
   },
   "devDependencies": {
