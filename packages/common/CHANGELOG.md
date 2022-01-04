@@ -1,5 +1,11 @@
 # @jagz-corp/common
 
+## 1.2.0
+
+### Minor Changes
+
+- d55d540: Ts
+
 ## 1.1.0
 
 ### Minor Changes

@@ -3,11 +3,11 @@
   "scripts": {
     "test": "node index.js"
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@jagz-corp/common": "^1.0.2"
+    "@jagz-corp/common": "^1.2.0"
   }
 }
