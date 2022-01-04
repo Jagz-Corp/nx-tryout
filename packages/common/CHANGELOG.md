@@ -1,5 +1,11 @@
 # @jagz-corp/common
 
+## 1.4.0
+
+### Minor Changes
+
+- 004f051: Small version change
+
 ## 1.2.0
 
 ### Minor Changes
