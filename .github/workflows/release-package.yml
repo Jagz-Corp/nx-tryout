@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   release:
@@ -20,6 +20,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 12.x
+          
+      - name: Install pnpm
+        run: npm i -g pnpm
 
       - name: Install Dependencies
         run: pnpm i --frozen-lockfile=false
