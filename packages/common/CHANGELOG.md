@@ -1,5 +1,11 @@
 # @jagz-corp/common
 
+## 1.4.1
+
+### Patch Changes
+
+- ece8497: Update to 5
+
 ## 1.4.0
 
 ### Minor Changes
